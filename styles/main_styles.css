@@ -334,12 +334,17 @@ section {
 .header {
 	position: fixed;
 	width: 100%;
-	background: rgba(54, 19, 84, 0.6);
+	/* background: rgba(24, 162, 221, 0.872); */
+	background: rgba(24, 162, 221, 0.5);
+	/* background: rgba(54, 19, 84, 0.85); */
+
 	z-index: 12;
 }
 
 .header.scrolled {
-	background: rgba(54, 19, 84, 0.85);
+	/* background: rgba(54, 19, 84, 0.85); */
+	background: rgba(24, 162, 221, 0.872);
+
 }
 
 /*********************************
@@ -348,7 +353,8 @@ section {
 .top_bar {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	/* background: #350a4e; */
+	background:black;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -361,6 +367,8 @@ section {
 	opacity: 0;
 	height: 0px;
 }
+
+
 
 .phone {
 	display: inline-block;
